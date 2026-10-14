@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #050508;
+    color: #E2E8F0;
+  }
+
+  h1, h2, h3, .font-royal {
+    font-family: 'Cinzel', Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Liquid Silver & Platinum Chrome Gradients */
+.silver-gradient-text {
+  background: linear-gradient(135deg, #FFFFFF 0%, #E2E8F0 35%, #94A3B8 70%, #F8FAFC 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.silver-gradient-bg {
+  background: linear-gradient(135deg, #FFFFFF 0%, #CBD5E1 50%, #94A3B8 100%);
+}
+
+.silver-border {
+  border-color: rgba(203, 213, 225, 0.25);
+}
+
+.silver-border-glow:hover {
+  border-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 25px -5px rgba(226, 232, 240, 0.2);
+}
+
+/* Regal Gold Gradient for Logo & Signature Accents */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF1CA 0%, #D4AF37 50%, #AA8010 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #E5C07B 0%, #D4AF37 50%, #B8860B 100%);
+}
+
+/* Ensure smooth section scrolling with offset for fixed top nav */
+section {
+  scroll-margin-top: 5rem;
+}
