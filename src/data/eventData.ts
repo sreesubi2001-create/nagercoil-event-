@@ -19,6 +19,19 @@ export interface GalleryItem {
   highlightTag: string;
 }
 
+export interface InstagramReel {
+  id: string;
+  title: string;
+  caption: string;
+  views: string;
+  likes: string;
+  imageUrl: string;
+  audioTrack: string;
+  duration: string;
+  instagramPostUrl: string;
+  tag: string;
+}
+
 export interface TestimonialItem {
   id: string;
   clientName: string;
@@ -46,7 +59,7 @@ export const BUSINESS_INFO = {
   pincode: '629001',
   fullAddress: 'Vadasery - Cape Road Junction, Nagercoil, Kanniyakumari District, Tamil Nadu 629001',
   googleMapsUrl: 'https://maps.google.com/?q=Nagercoil,+Kanniyakumari,+Tamil+Nadu,+India',
-  operatingHours: 'Monday - Sunday: 8:00 AM - 9:30 PM',
+  operatingHours: '24 Hours (7 Days a Week)',
   experienceYears: '10+',
   eventsCompleted: '500+',
   serviceDistricts: ['Nagercoil', 'Kanniyakumari', 'Marthandam', 'Thuckalay', 'Colachel', 'Kulasekharam', 'Tirunelveli District'],
@@ -247,6 +260,67 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     location: 'Nagercoil Royal Banquet',
     description: 'Warm champagne & ivory balloon art installation with fresh floral accents, illuminated marquee numbers, gold satin runner dessert table, and fairy bistro ambient lighting.',
     highlightTag: 'Milestone Gala',
+  },
+  {
+    id: 'gal-9',
+    title: 'Chenda Melam & Interactive Live Stalls',
+    category: 'catering',
+    categoryLabel: 'Live Stalls & Entertainment',
+    imageUrl: '/src/assets/images/reel_chenda_melam_stalls_1792134855948.jpg',
+    location: 'Nagercoil Wedding Venue',
+    description: 'Traditional Chenda Melam welcome procession, red carpet guest corridor, and custom canopy live food counters: Popcorn, Sweet Paan, Ice Cream & traditional Bombay Mittai.',
+    highlightTag: 'Carnival & Feasts',
+  },
+];
+
+export const INSTAGRAM_REELS: InstagramReel[] = [
+  {
+    id: 'reel-chenda-melam-stalls',
+    title: 'Live Chenda Melam, Popcorn, Paan & Ice Cream Stalls',
+    caption: 'Electrifying Chenda Melam welcome procession along the red carpet entrance with interactive live stalls: Sweet Paan, Popcorn machine, Ice Pops, and traditional Bombay Mittai! Real event setup by Royal Event & Catering Management in Nagercoil ✨🥁',
+    views: '58.4K',
+    likes: '4.9K',
+    imageUrl: '/src/assets/images/reel_chenda_melam_stalls_1792134855948.jpg',
+    audioTrack: 'Original Chenda Melam Beats · @royal_event_organizers',
+    duration: '0:34',
+    instagramPostUrl: 'https://instagram.com/royal_event_organizers?cplk=MWo1OGJsYmQ5YmxzYw%3D%3D',
+    tag: 'Chenda Melam & Stalls',
+  },
+  {
+    id: 'reel-1',
+    title: 'Magical Bridal Entry with Walking-on-Clouds Fog',
+    caption: 'When the bride and groom step in surrounded by low-lying dry ice clouds and indoor-safe cold sparkler fountains ✨ Captured live at a grand Nagercoil wedding reception! #RoyalEventOrganizers',
+    views: '46.8K',
+    likes: '3.9K',
+    imageUrl: '/src/assets/images/reel_bridal_entry_1792133901193.jpg',
+    audioTrack: 'Original Sound · @royal_event_organizers',
+    duration: '0:28',
+    instagramPostUrl: 'https://instagram.com/royal_event_organizers?cplk=MWo1OGJsYmQ5YmxzYw%3D%3D',
+    tag: 'Bridal Entry FX',
+  },
+  {
+    id: 'reel-2',
+    title: 'Handcrafting a Traditional South Indian Muhurtham Mandapam',
+    caption: 'Over 5,000 fresh Thovalai yellow marigolds and aromatic jasmine strings woven into a sacred temple sanctum. Watch our artisan decor team transform the hall before dawn! #MuhurthamDecor',
+    views: '62.4K',
+    likes: '5.2K',
+    imageUrl: '/src/assets/images/reel_mandapam_setup_1792133901704.jpg',
+    audioTrack: 'Mangala Vathiyam Nadaswaram · Wedding Special',
+    duration: '0:34',
+    instagramPostUrl: 'https://instagram.com/royal_event_organizers?cplk=MWo1OGJsYmQ5YmxzYw%3D%3D',
+    tag: 'Thovalai Flowers',
+  },
+  {
+    id: 'reel-3',
+    title: 'Traditional Wedding Sadhya & Feast (Elai Saapadu)',
+    caption: 'Steaming hot sambar, rich ghee payasam, and 24 traditional South Indian items served hot on fresh plantain leaves by our uniformed royal catering team. "We Plan • We Serve • You Celebrate" 🍲 #RoyalCatering',
+    views: '38.9K',
+    likes: '2.8K',
+    imageUrl: '/src/assets/images/reel_catering_banquet_1792133902092.jpg',
+    audioTrack: 'Traditional Feast Beats · @royal_event_organizers',
+    duration: '0:30',
+    instagramPostUrl: 'https://instagram.com/royal_event_organizers?cplk=MWo1OGJsYmQ5YmxzYw%3D%3D',
+    tag: 'Authentic Catering',
   },
 ];
 

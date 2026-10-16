@@ -29,11 +29,11 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
           className="focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-400 rounded-sm group select-none"
         >
           <div className="flex flex-col text-left">
-            <span className="font-royal text-xl sm:text-2xl font-bold tracking-tight silver-gradient-text group-hover:text-white transition-colors leading-none">
-              ROYAL
+            <span className="font-royal text-base sm:text-lg md:text-xl font-bold tracking-tight silver-gradient-text group-hover:text-white transition-colors leading-none">
+              ROYAL EVENT MANAGEMENT
             </span>
-            <span className="text-[10px] tracking-[0.22em] uppercase font-semibold text-slate-400 leading-tight mt-1">
-              Event & Catering Management
+            <span className="text-[10px] sm:text-[11px] tracking-[0.24em] uppercase font-semibold text-slate-400 leading-tight mt-1">
+              & Catering Services
             </span>
           </div>
         </a>

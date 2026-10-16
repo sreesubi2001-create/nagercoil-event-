@@ -114,7 +114,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
                 +91 95855 88810
               </a>
               <span aria-hidden="true">·</span>
-              <span>Instant WhatsApp responses 8:00 AM – 9:30 PM</span>
+              <span>24 Hours Service & Instant WhatsApp</span>
             </div>
           </div>
 

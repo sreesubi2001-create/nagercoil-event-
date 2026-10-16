@@ -12,11 +12,11 @@ export const Footer: React.FC = () => {
           {/* Brand & Mission with Text Wordmark */}
           <div className="lg:col-span-5 space-y-4">
             <div className="flex flex-col text-left space-y-1">
-              <span className="font-royal text-2xl font-bold tracking-tight silver-gradient-text leading-none">
-                ROYAL
+              <span className="font-royal text-xl sm:text-2xl font-bold tracking-tight silver-gradient-text leading-none">
+                ROYAL EVENT MANAGEMENT
               </span>
-              <span className="text-xs tracking-[0.22em] uppercase font-semibold text-slate-400 leading-tight">
-                Event & Catering Management
+              <span className="text-xs tracking-[0.24em] uppercase font-semibold text-slate-400 leading-tight">
+                & Catering Services
               </span>
             </div>
 
