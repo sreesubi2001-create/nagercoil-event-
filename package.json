@@ -1,4 +1,4 @@
-```json
+
 {
   "name": "react-example",
   "private": true,
@@ -29,4 +29,4 @@
     "typescript": "^7.0.2"
   }
 }
-```
+
