@@ -6,6 +6,7 @@ export interface ServiceItem {
   description: string;
   features: string[];
   idealFor: string;
+  imageUrl?: string;
 }
 
 export interface GalleryItem {
@@ -71,6 +72,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Wedding & Muhurtham Mandapams',
     tagline: 'Authentic South Indian Sanctums Crafted with Sacred Grandeur',
     category: 'wedding',
+    imageUrl: '/src/assets/images/gallery_mandapam_floral_1791977331591.jpg',
     description: 'Specializing in majestic South Indian wedding mandapams featuring ornate wooden pillars, cascading Thovalai fresh jasmine & marigold floral garlands, brass diyas, and ceremonial sanctums tailored for auspicious muhurthams.',
     features: [
       'Custom Mandapam Architecture & Floral Canopies',
@@ -85,6 +87,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Grand Reception Stages',
     tagline: 'Contemporary Royal Stages with Breathtaking Visual Presence',
     category: 'reception',
+    imageUrl: '/src/assets/images/gallery_reception_stage_1791977326870.jpg',
     description: 'Transforming marriage halls and convention centres with opulent curved backdrops, lush pastel florals, crystal chandeliers, architectural LED panels, and regal velvet royal couches.',
     features: [
       '3D Geometric & Floral Architectural Backdrops',
@@ -99,6 +102,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Royal Catering & Dining Services',
     tagline: 'Authentic South Indian Feasts & Multi-Cuisine Banquets',
     category: 'catering',
+    imageUrl: '/src/assets/images/gallery_catering_feast_1791978739740.jpg',
     description: 'Under our brand commitment "We Serve", we provide seamless food and banquet management from traditional South Indian banana leaf wedding sadhya to opulent live buffet counters with fine silver chafing presentation.',
     features: [
       'Traditional South Indian Elai Saapadu (Banana Leaf Feasts)',
@@ -113,6 +117,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Grand Entrance Arches & Red Carpet',
     tagline: 'Creating an Unforgettable First Impression for Every Guest',
     category: 'wedding',
+    imageUrl: '/src/assets/images/gallery_grand_entrance_1791978740120.jpg',
     description: 'Customizing grand walkway floral arches, red velvet carpet corridors, glowing crystal chandelier tunnels, and fresh flower welcoming pathways that welcome your guests in true royalty.',
     features: [
       'Monumental Floral Tunnel & Canopy Arches',
@@ -127,6 +132,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Bridal Entry FX & Cold Pyrotechnics',
     tagline: 'Walking on Clouds with Spectacular Stage Atmosphere',
     category: 'production',
+    imageUrl: '/src/assets/images/gallery_couple_entry_pyro_1791978741887.jpg',
     description: 'Transforming couple entries into magical fairy tales with low-lying white dry ice fog clouds, indoor fire-safe cold sparkler fireworks, flower shower blowers, and synchronized spotlights.',
     features: [
       'Dense Low-Lying Dry Ice Cloud Fog Effect',
@@ -141,6 +147,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Aluminum Trussing, Intelligent Lighting & Sound',
     tagline: 'High-Impact Concert-Grade Production & Acoustics',
     category: 'production',
+    imageUrl: '/src/assets/images/gallery_concert_truss_lighting_1791978741302.jpg',
     description: 'Equipped with heavy-duty silver aluminum trussing, intelligent moving head beams, stage wash lights, LED video walls, and line-array audio systems for crystal clear vows and dynamic music.',
     features: [
       'Heavy Aluminum Stage Trussing & Overhead Lighting Grid',
@@ -155,6 +162,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Themed Birthdays & Milestones',
     tagline: 'Joyful & Picture-Perfect Themes for Every Milestone',
     category: 'birthday',
+    imageUrl: '/src/assets/images/gallery_milestone_birthday_1791977327671.jpg',
     description: 'From dreamlike 1st birthday celebrations to 50th and 60th (Sashtiabdhapoorthi) golden jubilees with organic balloon styling, illuminated marquee numbers, and custom dessert presentation stages.',
     features: [
       'Illuminated Marquee Numbers & Personalized Lettering',
@@ -169,6 +177,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Traditional Family Celebrations',
     tagline: 'Preserving Sacred Heritage with Aesthetic Perfection',
     category: 'traditional',
+    imageUrl: '/src/assets/images/hero_wedding_stage_1791977326183.jpg',
     description: 'Honoring Tamil cultural milestones including Valaikappu (Baby Shower), Grihapravesham (Housewarming), and traditional Poojas with auspicious fresh Thovalai florals and traditional stage canopies.',
     features: [
       'Traditional Bangle & Floral Canopies for Valaikappu',
