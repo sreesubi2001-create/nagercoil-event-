@@ -1,3 +1,16 @@
+import mandapamFloralImg from '../assets/images/gallery_mandapam_floral_1791977331591.jpg';
+import receptionStageImg from '../assets/images/gallery_reception_stage_1791977326870.jpg';
+import cateringFeastImg from '../assets/images/gallery_catering_feast_1791978739740.jpg';
+import grandEntranceImg from '../assets/images/gallery_grand_entrance_1791978740120.jpg';
+import coupleEntryPyroImg from '../assets/images/gallery_couple_entry_pyro_1791978741887.jpg';
+import concertTrussLightingImg from '../assets/images/gallery_concert_truss_lighting_1791978741302.jpg';
+import milestoneBirthdayImg from '../assets/images/gallery_milestone_birthday_1791977327671.jpg';
+import heroWeddingStageImg from '../assets/images/hero_wedding_stage_1791977326183.jpg';
+import reelBridalEntryImg from '../assets/images/reel_bridal_entry_1792133901193.jpg';
+import reelCateringBanquetImg from '../assets/images/reel_catering_banquet_1792133902092.jpg';
+import reelChendaMelamStallsImg from '../assets/images/reel_chenda_melam_stalls_1792134855948.jpg';
+import reelMandapamSetupImg from '../assets/images/reel_mandapam_setup_1792133901704.jpg';
+
 export interface ServiceItem {
   id: string;
   title: string;
@@ -72,7 +85,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Wedding & Muhurtham Mandapams',
     tagline: 'Authentic South Indian Sanctums Crafted with Sacred Grandeur',
     category: 'wedding',
-    imageUrl: '/src/assets/images/gallery_mandapam_floral_1791977331591.jpg',
+    imageUrl: mandapamFloralImg,
     description: 'Specializing in majestic South Indian wedding mandapams featuring ornate wooden pillars, cascading Thovalai fresh jasmine & marigold floral garlands, brass diyas, and ceremonial sanctums tailored for auspicious muhurthams.',
     features: [
       'Custom Mandapam Architecture & Floral Canopies',
@@ -87,7 +100,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Grand Reception Stages',
     tagline: 'Contemporary Royal Stages with Breathtaking Visual Presence',
     category: 'reception',
-    imageUrl: '/src/assets/images/gallery_reception_stage_1791977326870.jpg',
+    imageUrl: receptionStageImg,
     description: 'Transforming marriage halls and convention centres with opulent curved backdrops, lush pastel florals, crystal chandeliers, architectural LED panels, and regal velvet royal couches.',
     features: [
       '3D Geometric & Floral Architectural Backdrops',
@@ -102,7 +115,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Royal Catering & Dining Services',
     tagline: 'Authentic South Indian Feasts & Multi-Cuisine Banquets',
     category: 'catering',
-    imageUrl: '/src/assets/images/gallery_catering_feast_1791978739740.jpg',
+    imageUrl: cateringFeastImg,
     description: 'Under our brand commitment "We Serve", we provide seamless food and banquet management from traditional South Indian banana leaf wedding sadhya to opulent live buffet counters with fine silver chafing presentation.',
     features: [
       'Traditional South Indian Elai Saapadu (Banana Leaf Feasts)',
@@ -117,7 +130,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Grand Entrance Arches & Red Carpet',
     tagline: 'Creating an Unforgettable First Impression for Every Guest',
     category: 'wedding',
-    imageUrl: '/src/assets/images/gallery_grand_entrance_1791978740120.jpg',
+    imageUrl: grandEntranceImg,
     description: 'Customizing grand walkway floral arches, red velvet carpet corridors, glowing crystal chandelier tunnels, and fresh flower welcoming pathways that welcome your guests in true royalty.',
     features: [
       'Monumental Floral Tunnel & Canopy Arches',
@@ -132,7 +145,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Bridal Entry FX & Cold Pyrotechnics',
     tagline: 'Walking on Clouds with Spectacular Stage Atmosphere',
     category: 'production',
-    imageUrl: '/src/assets/images/gallery_couple_entry_pyro_1791978741887.jpg',
+    imageUrl: coupleEntryPyroImg,
     description: 'Transforming couple entries into magical fairy tales with low-lying white dry ice fog clouds, indoor fire-safe cold sparkler fireworks, flower shower blowers, and synchronized spotlights.',
     features: [
       'Dense Low-Lying Dry Ice Cloud Fog Effect',
@@ -147,7 +160,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Aluminum Trussing, Intelligent Lighting & Sound',
     tagline: 'High-Impact Concert-Grade Production & Acoustics',
     category: 'production',
-    imageUrl: '/src/assets/images/gallery_concert_truss_lighting_1791978741302.jpg',
+    imageUrl: concertTrussLightingImg,
     description: 'Equipped with heavy-duty silver aluminum trussing, intelligent moving head beams, stage wash lights, LED video walls, and line-array audio systems for crystal clear vows and dynamic music.',
     features: [
       'Heavy Aluminum Stage Trussing & Overhead Lighting Grid',
@@ -162,7 +175,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Themed Birthdays & Milestones',
     tagline: 'Joyful & Picture-Perfect Themes for Every Milestone',
     category: 'birthday',
-    imageUrl: '/src/assets/images/gallery_milestone_birthday_1791977327671.jpg',
+    imageUrl: milestoneBirthdayImg,
     description: 'From dreamlike 1st birthday celebrations to 50th and 60th (Sashtiabdhapoorthi) golden jubilees with organic balloon styling, illuminated marquee numbers, and custom dessert presentation stages.',
     features: [
       'Illuminated Marquee Numbers & Personalized Lettering',
@@ -177,7 +190,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Traditional Family Celebrations',
     tagline: 'Preserving Sacred Heritage with Aesthetic Perfection',
     category: 'traditional',
-    imageUrl: '/src/assets/images/hero_wedding_stage_1791977326183.jpg',
+    imageUrl: heroWeddingStageImg,
     description: 'Honoring Tamil cultural milestones including Valaikappu (Baby Shower), Grihapravesham (Housewarming), and traditional Poojas with auspicious fresh Thovalai florals and traditional stage canopies.',
     features: [
       'Traditional Bangle & Floral Canopies for Valaikappu',
@@ -195,7 +208,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Grand Royal Muhurtham Mandapam',
     category: 'wedding',
     categoryLabel: 'Wedding Mandapam',
-    imageUrl: '/src/assets/images/hero_wedding_stage_1791977326183.jpg',
+    imageUrl: heroWeddingStageImg,
     location: 'Nagercoil Convention Hall',
     description: 'Ornate gold carved pillars with fragrant fresh jasmine garlands, deep royal navy satin drapery, glowing brass lamps, and sacred sacrificial hearth for auspicious wedding ceremonies.',
     highlightTag: 'Royal Heritage',
@@ -205,7 +218,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Grand Entrance Floral Arch & Red Carpet',
     category: 'wedding',
     categoryLabel: 'Grand Entrance Arch',
-    imageUrl: '/src/assets/images/gallery_grand_entrance_1791978740120.jpg',
+    imageUrl: grandEntranceImg,
     location: 'Nagercoil Marriage Hall',
     description: 'Breathtaking white floral arch tunnel with crystal chandeliers, ambient fairy lights, red velvet carpet walkway, and brass lanterns welcoming arriving wedding guests.',
     highlightTag: 'Royal Walkway',
@@ -215,7 +228,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Royal Catering & Banquet Buffet Feast',
     category: 'catering',
     categoryLabel: 'Catering & Dining',
-    imageUrl: '/src/assets/images/gallery_catering_feast_1791978739740.jpg',
+    imageUrl: cateringFeastImg,
     location: 'Kanniyakumari Grand Banquet',
     description: 'Gleaming silver chafing presentation, live food stations, exquisite fruit peacock carving display, and traditional South Indian gourmet cuisine prepared and served with royal hospitality.',
     highlightTag: 'We Serve',
@@ -225,7 +238,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Spectacular Couple Entry with Cold Pyros & Fog',
     category: 'lighting',
     categoryLabel: 'Bridal Entry FX',
-    imageUrl: '/src/assets/images/gallery_couple_entry_pyro_1791978741887.jpg',
+    imageUrl: coupleEntryPyroImg,
     location: 'Kanyakumari Luxury Resort',
     description: 'Enchanting walking-on-clouds dry ice low fog walkway flanked by dazzling indoor-safe cold sparkler fountain pyrotechnics and crystal chandeliers for the couple grand entry.',
     highlightTag: 'Magical Entry',
@@ -235,7 +248,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Contemporary Luxury Reception Stage',
     category: 'reception',
     categoryLabel: 'Reception Stage',
-    imageUrl: '/src/assets/images/gallery_reception_stage_1791977326870.jpg',
+    imageUrl: receptionStageImg,
     location: 'Marthandam Grand Banquet',
     description: 'Modern geometric curved stage backdrop draped with pastel English roses, cascading fairy light ceiling canopy, crystal chandeliers, and plush royal velvet couple seating.',
     highlightTag: 'Modern Luxury',
@@ -245,7 +258,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Aluminum Trussing & Intelligent Concert Lighting',
     category: 'lighting',
     categoryLabel: 'Lighting & Sound',
-    imageUrl: '/src/assets/images/gallery_concert_truss_lighting_1791978741302.jpg',
+    imageUrl: concertTrussLightingImg,
     location: 'Nagercoil Open Air Venue',
     description: 'Heavy silver aluminum truss framework equipped with moving beam heads, LED screens, crystal chandeliers, and high-fidelity sound system engineering for musical evenings.',
     highlightTag: 'Concert Grade',
@@ -255,7 +268,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Authentic South Indian Muhurtham Sanctum',
     category: 'wedding',
     categoryLabel: 'Traditional Mandapam',
-    imageUrl: '/src/assets/images/gallery_mandapam_floral_1791977331591.jpg',
+    imageUrl: mandapamFloralImg,
     location: 'Kanyakumari Heritage Venue',
     description: 'Rich teakwood carved pillars adorned with sacred brass bells, fresh yellow marigolds, white tuberoses, and radiant traditional kutthu vilakku oil lamps.',
     highlightTag: 'Pure Tradition',
@@ -265,7 +278,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Milestone 30th Family Celebration',
     category: 'birthday',
     categoryLabel: 'Milestone Celebration',
-    imageUrl: '/src/assets/images/gallery_milestone_birthday_1791977327671.jpg',
+    imageUrl: milestoneBirthdayImg,
     location: 'Nagercoil Royal Banquet',
     description: 'Warm champagne & ivory balloon art installation with fresh floral accents, illuminated marquee numbers, gold satin runner dessert table, and fairy bistro ambient lighting.',
     highlightTag: 'Milestone Gala',
@@ -275,7 +288,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Chenda Melam & Interactive Live Stalls',
     category: 'catering',
     categoryLabel: 'Live Stalls & Entertainment',
-    imageUrl: '/src/assets/images/reel_chenda_melam_stalls_1792134855948.jpg',
+    imageUrl: reelChendaMelamStallsImg,
     location: 'Nagercoil Wedding Venue',
     description: 'Traditional Chenda Melam welcome procession, red carpet guest corridor, and custom canopy live food counters: Popcorn, Sweet Paan, Ice Cream & traditional Bombay Mittai.',
     highlightTag: 'Carnival & Feasts',
@@ -289,7 +302,7 @@ export const INSTAGRAM_REELS: InstagramReel[] = [
     caption: 'Electrifying Chenda Melam welcome procession along the red carpet entrance with interactive live stalls: Sweet Paan, Popcorn machine, Ice Pops, and traditional Bombay Mittai! Real event setup by Royal Event & Catering Management in Nagercoil ✨🥁',
     views: '58.4K',
     likes: '4.9K',
-    imageUrl: '/src/assets/images/reel_chenda_melam_stalls_1792134855948.jpg',
+    imageUrl: reelChendaMelamStallsImg,
     audioTrack: 'Original Chenda Melam Beats · @royal_event_organizers',
     duration: '0:34',
     instagramPostUrl: 'https://instagram.com/royal_event_organizers?cplk=MWo1OGJsYmQ5YmxzYw%3D%3D',
@@ -301,7 +314,7 @@ export const INSTAGRAM_REELS: InstagramReel[] = [
     caption: 'When the bride and groom step in surrounded by low-lying dry ice clouds and indoor-safe cold sparkler fountains ✨ Captured live at a grand Nagercoil wedding reception! #RoyalEventOrganizers',
     views: '46.8K',
     likes: '3.9K',
-    imageUrl: '/src/assets/images/reel_bridal_entry_1792133901193.jpg',
+    imageUrl: reelBridalEntryImg,
     audioTrack: 'Original Sound · @royal_event_organizers',
     duration: '0:28',
     instagramPostUrl: 'https://instagram.com/royal_event_organizers?cplk=MWo1OGJsYmQ5YmxzYw%3D%3D',
@@ -313,7 +326,7 @@ export const INSTAGRAM_REELS: InstagramReel[] = [
     caption: 'Over 5,000 fresh Thovalai yellow marigolds and aromatic jasmine strings woven into a sacred temple sanctum. Watch our artisan decor team transform the hall before dawn! #MuhurthamDecor',
     views: '62.4K',
     likes: '5.2K',
-    imageUrl: '/src/assets/images/reel_mandapam_setup_1792133901704.jpg',
+    imageUrl: reelMandapamSetupImg,
     audioTrack: 'Mangala Vathiyam Nadaswaram · Wedding Special',
     duration: '0:34',
     instagramPostUrl: 'https://instagram.com/royal_event_organizers?cplk=MWo1OGJsYmQ5YmxzYw%3D%3D',
@@ -325,7 +338,7 @@ export const INSTAGRAM_REELS: InstagramReel[] = [
     caption: 'Steaming hot sambar, rich ghee payasam, and 24 traditional South Indian items served hot on fresh plantain leaves by our uniformed royal catering team. "We Plan • We Serve • You Celebrate" 🍲 #RoyalCatering',
     views: '38.9K',
     likes: '2.8K',
-    imageUrl: '/src/assets/images/reel_catering_banquet_1792133902092.jpg',
+    imageUrl: reelCateringBanquetImg,
     audioTrack: 'Traditional Feast Beats · @royal_event_organizers',
     duration: '0:30',
     instagramPostUrl: 'https://instagram.com/royal_event_organizers?cplk=MWo1OGJsYmQ5YmxzYw%3D%3D',
